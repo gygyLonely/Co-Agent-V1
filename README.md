@@ -1,7 +1,7 @@
 
 # Co-Agent-v1
 
-A fast, minimal console AI agent capable of searching the web and managing files directly from your terminal. It leverages Groq for high-speed reasoning and Tavily for real-time web search.
+A fast, minimal console AI agent based on deepagent capable of searching the web and managing files directly from your terminal. It leverages Groq for high-speed reasoning and Tavily for real-time web search.
 
 ## Requirements
 - Python 3.10 or higher

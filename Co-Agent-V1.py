@@ -90,7 +90,7 @@ except Exception as e:
 
 # ─────────────────────────────────────────────
 # MEMORY SETTINGS
-# Keep only the last 20 messages to stay light on memory.
+# Keep ony the last 20 messages to stay light on memory.
 # 20 messages ~ 4k-10k tokens, well within Groq's 32k context window
 # and easy on low-to-mid range machines.
 # ─────────────────────────────────────────────
@@ -104,8 +104,15 @@ MAX_MESSAGES = 20
 print("=" * 40)
 print("  Co-Agent-v1 — Console AI Agent")
 print("  Type 'exit' to quit.")
-print("=" * 40 + "\n")
-
+print("=" * 40)
+print("  Author: gygyLonely")
+print("  Experimental Project for Learning")
+print("-" * 40)
+print("  This project is a personal experiment")
+print("  and a learning demonstration of AI agents.")
+print("  Provided 'as is' for educational purposes.")
+print("  Not suitable for production environments.")
+print("=" * 40 + "\n")   
 conversation_history = []
 
 while True:

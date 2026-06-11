@@ -1,3 +1,4 @@
+
 # Co-Agent-v1
 
 A fast, minimal console AI agent capable of searching the web and managing files directly from your terminal. It leverages Groq for high-speed reasoning and Tavily for real-time web search.
@@ -20,49 +21,50 @@ cd Co-Agent-V1
 Follow the instructions below based on your operating system.
 
 #### For Linux / macOS
-
+```bash
 # Create the virtual environment
 python3 -m venv venv
 
 # Activate the environment
 source venv/bin/activate
-
+```
 
 #### For Windows
 Open Command Prompt or PowerShell:
-
+```cmd
 # Create the virtual environment
 python -m venv venv
 
 # Activate the environment
 venv\Scripts\activate
-
+```
 *Note: If using PowerShell and you get an execution policy error, run `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` first.*
 
 ### 3. Install Dependencies
 With the virtual environment activated (you should see `(venv)` at the start of your line), install the required packages:
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 4. Configure API Keys
 You must create a `.env` file to store your API keys securely.
 
 1.  Copy the example file:
-    
+    ```bash
     cp .env.example .env
-    
+    ```
     *(On Windows Command Prompt, use: `copy .env.example .env`)*
 
 2.  Open the `.env` file with a text editor (e.g., nano, notepad, vscode):
-    
+    ```bash
     nano .env
-  
+    ```
 
 3.  Paste your API keys as shown below. Do not add spaces around the `=` sign.
-    
+    ```text
     GROQ_API_KEY=gsk_your_actual_groq_key_here
     TAVILY_API_KEY=tvly_your_actual_tavily_key_here
-    
+    ```
 
 4.  Save and close the file.
 
@@ -75,14 +77,14 @@ You must create a `.env` file to store your API keys securely.
 Ensure your virtual environment is still activated, then run the agent:
 
 #### Linux / macOS
-
+```bash
 python3 Co-Agent-V1.py
-
+```
 
 #### Windows
-
+```cmd
 python Co-Agent-V1.py
-
+```
 
 ## Troubleshooting
 - **ModuleNotFoundError**: Ensure you activated the virtual environment before running `pip install`.

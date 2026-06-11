@@ -90,5 +90,8 @@ python Co-Agent-V1.py
 - **ModuleNotFoundError**: Ensure you activated the virtual environment before running `pip install`.
 - **Authentication Error**: Check that your keys in `.env` are correct and have no extra spaces.
 - **Permission Denied (Linux)**: If you cannot activate the venv, ensure `python3-venv` is installed (`sudo apt install python3-venv`).
-```
 
+
+ ## Author
+Created by **gygyLonely**.  
+Feel free to contribute or open an issue on [GitHub](https://github.com/gygyLonely/Co-Agent-V1).    
